@@ -1,5 +1,5 @@
 
-function initLightSwitch(stylesheetId, buttonId) {
+export function initLightSwitch(stylesheetId, buttonId) {
   const stylesheet_ = document.getElementById(stylesheetId)
   const lightSwitch = document.getElementById(buttonId)
   function colorSchemeChange(dark) {
@@ -14,7 +14,7 @@ function initLightSwitch(stylesheetId, buttonId) {
   lightSwitch.addEventListener('click', () => colorSchemeChange(!stylesheetId.disabled))
 }
 
-async function registerServiceWorker(url, options, installButtonId) {
+export async function registerServiceWorker(url, options, installButtonId) {
   let registration
   try {
     if ('serviceWorker' in navigator) registration = await navigator.serviceWorker.register(url, {
