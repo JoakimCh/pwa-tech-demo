@@ -9,7 +9,7 @@ https://github.com/w3c/ServiceWorker/issues/822
 */
 
 const prefix = 'PTD' // since the origin could be shared by several PWA's
-const build = 'b13'
+const build = 'b14'
 const mainCache = prefix+'_main'
 const log = console.log
 
