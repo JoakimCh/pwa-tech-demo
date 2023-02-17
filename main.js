@@ -2,7 +2,7 @@
 import {initLightSwitch, registerServiceWorker} from './useful.js'
 
 // let this be easy to read for anyone to see how the app is initialized
-const log = console.log()
+const log = console.log
 initLightSwitch('css_light', 'btn_light')
 registerServiceWorker('serviceWorker.js', {}, 'btn_install')
 

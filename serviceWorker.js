@@ -9,9 +9,9 @@ https://github.com/w3c/ServiceWorker/issues/822
 */
 
 const prefix = 'PTD' // since the origin could be shared by several PWA's
-const build = 'b8'
+const build = 'b9'
 const mainCache = prefix+'_main'
-const log = console.log()
+const log = console.log
 
 // const bc_shared = new BroadcastChannel('shared')
 // bc_shared.postMessage('sad')
