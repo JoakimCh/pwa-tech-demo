@@ -9,7 +9,7 @@ https://github.com/w3c/ServiceWorker/issues/822
 */
 
 const prefix = 'PTD' // since the origin could be shared by several PWA's
-const build = 'b9'
+const build = 'b10'
 const mainCache = prefix+'_main'
 const log = console.log
 
@@ -22,9 +22,7 @@ const log = console.log
 self.addEventListener('message', (event) => {
   log('sw message', event)
 })
-const client = clients.matchAll()[0] // last active client of type window
-log(client)
-client.postMessage({build})
+
 
 self.addEventListener('install', event => {
   async function addInitialCache() {
@@ -46,7 +44,10 @@ self.addEventListener('install', event => {
 })
 
 // clean up stuff from old workers
-// self.addEventListener('activate', event => {
+self.addEventListener('activate', event => {
+  const client = clients.matchAll()[0] // last active client of type window
+  log(client)
+  client.postMessage({build})
 //   async function deleteOldCaches() {
 //     const names = await caches.keys()
 //     await Promise.all(names.map(name => {
@@ -58,7 +59,7 @@ self.addEventListener('install', event => {
 //     }))
 //   }
 //   event.waitUntil(deleteOldCaches())
-// })
+})
 
 self.addEventListener('fetch', event => {
   async function returnCachedResource() {
