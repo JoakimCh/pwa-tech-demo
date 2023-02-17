@@ -1,0 +1,18 @@
+{
+  "short_name": "Fake PWA",
+  "name": "Fake PWA long title",
+  "description": "For PWA research...",
+  "lang": "en-US",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ]
+}

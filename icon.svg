@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.61714992"
+     inkscape:cx="418.86095"
+     inkscape:cy="490.9666"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <defs
+     id="defs9">
+    <rect
+       x="10.940476"
+       y="56.163944"
+       width="20.860971"
+       height="28.208502"
+       id="rect221" />
+  </defs>
+  <rect
+     style="fill:#000000;stroke-width:0.264583"
+     id="rect243"
+     width="290.04794"
+     height="288.8562"
+     x="-8.5827217"
+     y="-8.8776159"
+     inkscape:label="background" />
+  <g
+     id="g305"
+     transform="matrix(7.0837139,0,0,7.0837139,18.435004,3.8281628)"
+     inkscape:label="center">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.73126px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:#cccccc;stroke-width:0.11804"
+       x="5.821188"
+       y="25.076475"
+       id="text281"
+       transform="scale(0.96631102,1.0348635)"
+       inkscape:label="title long"><tspan
+         sodipodi:role="line"
+         id="tspan279"
+         style="stroke-width:0.11804"
+         x="5.821188"
+         y="25.076475">PWA      TECH    DEMO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.87702px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black,  Bold';white-space:pre;inline-size:34.0491;display:inline;fill:#cccccc;stroke-width:0.264583"
+       x="7.2205663"
+       y="16.637241"
+       id="text243"
+       transform="matrix(2.7301701,0,0,4.5656863,-15.10831,-52.096458)"
+       inkscape:label="title short"><tspan
+         x="7.2205663"
+         y="16.637241"
+         id="tspan425"><tspan
+           style="font-weight:normal;-inkscape-font-specification:'Arial Black, '"
+           id="tspan423">PTD
+</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>
