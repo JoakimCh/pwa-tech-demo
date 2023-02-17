@@ -1,6 +1,7 @@
 {
   "short_name": "Fake PWA",
   "name": "Fake PWA long title",
+  "id": "pwa-tech-demo",
   "description": "For PWA research...",
   "lang": "en-US",
   "start_url": "./",
