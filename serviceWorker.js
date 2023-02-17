@@ -9,7 +9,7 @@ https://github.com/w3c/ServiceWorker/issues/822
 */
 
 const prefix = 'PTD' // since the origin could be shared by several PWA's
-const build = 'b12'
+const build = 'b13'
 const mainCache = prefix+'_main'
 const log = console.log
 
@@ -19,9 +19,9 @@ const log = console.log
 
 // // }
 
-self.addEventListener('message', ({source: client, data}) => {
+self.addEventListener('message', ({source, data}) => {
   log('sw message', source, data)
-  client.postMessage({build})
+  source.postMessage({build})
 })
 
 self.addEventListener('install', event => {
