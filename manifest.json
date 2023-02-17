@@ -13,7 +13,12 @@
     {
       "src": "icon.svg",
       "sizes": "any",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "purpose": "maskable"
     }
   ]
 }

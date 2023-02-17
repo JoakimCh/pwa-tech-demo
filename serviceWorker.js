@@ -9,7 +9,7 @@ https://github.com/w3c/ServiceWorker/issues/822
 */
 
 const prefix = 'PTD' // since the origin could be shared by several PWA's
-const build = 'b4'
+const build = 'b5'
 const mainCache = prefix+'_main'
 
 self.addEventListener('install', event => {
