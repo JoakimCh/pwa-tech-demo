@@ -9,8 +9,22 @@ https://github.com/w3c/ServiceWorker/issues/822
 */
 
 const prefix = 'PTD' // since the origin could be shared by several PWA's
-const build = 'b7'
+const build = 'b8'
 const mainCache = prefix+'_main'
+const log = console.log()
+
+// const bc_shared = new BroadcastChannel('shared')
+// bc_shared.postMessage('sad')
+// // bc_shared.addEventListener('message', {data}) {
+
+// // }
+
+self.addEventListener('message', (event) => {
+  log('sw message', event)
+})
+const client = clients.matchAll()[0] // last active client of type window
+log(client)
+client.postMessage({build})
 
 self.addEventListener('install', event => {
   async function addInitialCache() {
